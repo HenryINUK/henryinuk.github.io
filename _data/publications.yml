@@ -1,25 +1,5 @@
 main:
 
-  # - title: "ccGuard: Efficient Confidential Computing Access Control Through Near Memory Controller Support"
-  #   authors: <strong>Haoyu Wang</strong>, Nurreddin Kamadan, Noa Zillberman, Ahmad Atamli, Amro Awad
-  #   conference_short: ISCA
-  #   conference: ACM International Symposium on Computer Architecture <strong>(ISCA)</strong>, 2026.
-  #   pdf: 
-  #   code: 
-  #   bibtex: 
-  #   image: ./assets/img/teaser_ccguard.png
-  #   notes: Submitted
-
-  # - title: "NoCProphet: Generative Proactive Defence for Network-on-Chip Systems"
-  #   authors: <strong>Haoyu Wang</strong>, Shengkai Hu, BooJoong Kang
-  #   conference_short: DAC
-  #   conference: Proceedings of the 31st ACM/IEEE Design Automation Conference <strong>(DAC)</strong>, 2026.
-  #   pdf: 
-  #   code: 
-  #   bibtex: 
-  #   image: ./assets/img/teaser_nocprophet.png
-  #   notes: Submitted
-
   - title: "Revisiting Virtual Memory Support for Confidential Computing Environments"
     authors: <strong>Haoyu Wang</strong>, Noa Zillberman, Ahmad Atamli, Amro Awad
     conference_short: CAL
@@ -29,17 +9,7 @@ main:
     bibtex: 
     image: ./assets/img/teaser_cal.png
     notes: 
-
-  # - title: "Gem5-Shark: Smaug-based Heterogeneous Deep Learning Accelerator Security and Reliability Evaluation and Characterization Framework"
-  #   authors: <strong>Haoyu Wang</strong>, Haosen Yu, Ahmad Atamli, Basel Halak
-  #   conference_short: TECS
-  #   conference: ACM Transactions on Embedded Computing Systems <strong>(TECS)</strong>, 2026.
-  #   pdf: 
-  #   code: 
-  #   bibtex: 
-  #   image: ./assets/img/teaser_gem5shark.png
-  #   notes: Submitted
-
+    
   - title: "DL2Fence: Integrating Deep Learning and Frame Fusion for Enhanced Detection and Localization of Refined Denial-of-Service in Large-Scale NoCs"
     authors: <strong>Haoyu Wang</strong>, Basel Halak, Jianjie Ren, Ahmad Atamli
     conference_short: DAC
