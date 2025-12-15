@@ -1,24 +1,24 @@
 main:
 
-  - title: "ccGuard: Efficient Confidential Computing Access Control Through Near Memory Controller Support"
-    authors: <strong>Haoyu Wang</strong>, Nurreddin Kamadan, Noa Zillberman, Ahmad Atamli, Amro Awad
-    conference_short: ISCA
-    conference: ACM International Symposium on Computer Architecture <strong>(ISCA)</strong>, 2026.
-    pdf: 
-    code: 
-    bibtex: 
-    image: ./assets/img/teaser_ccguard.png
-    notes: Submitted
+  # - title: "ccGuard: Efficient Confidential Computing Access Control Through Near Memory Controller Support"
+  #   authors: <strong>Haoyu Wang</strong>, Nurreddin Kamadan, Noa Zillberman, Ahmad Atamli, Amro Awad
+  #   conference_short: ISCA
+  #   conference: ACM International Symposium on Computer Architecture <strong>(ISCA)</strong>, 2026.
+  #   pdf: 
+  #   code: 
+  #   bibtex: 
+  #   image: ./assets/img/teaser_ccguard.png
+  #   notes: Submitted
 
-  - title: "NoCProphet: Generative Proactive Defence for Network-on-Chip Systems"
-    authors: <strong>Haoyu Wang</strong>, Shengkai Hu, BooJoong Kang
-    conference_short: DAC
-    conference: Proceedings of the 31st ACM/IEEE Design Automation Conference <strong>(DAC)</strong>, 2026.
-    pdf: 
-    code: 
-    bibtex: 
-    image: ./assets/img/teaser_nocprophet.png
-    notes: Submitted
+  # - title: "NoCProphet: Generative Proactive Defence for Network-on-Chip Systems"
+  #   authors: <strong>Haoyu Wang</strong>, Shengkai Hu, BooJoong Kang
+  #   conference_short: DAC
+  #   conference: Proceedings of the 31st ACM/IEEE Design Automation Conference <strong>(DAC)</strong>, 2026.
+  #   pdf: 
+  #   code: 
+  #   bibtex: 
+  #   image: ./assets/img/teaser_nocprophet.png
+  #   notes: Submitted
 
   - title: "Revisiting Virtual Memory Support for Confidential Computing Environments"
     authors: <strong>Haoyu Wang</strong>, Noa Zillberman, Ahmad Atamli, Amro Awad
@@ -30,21 +30,21 @@ main:
     image: ./assets/img/teaser_cal.png
     notes: 
 
-  - title: "Gem5-Shark: Smaug-based Heterogeneous Deep Learning Accelerator Security and Reliability Evaluation and Characterization Framework"
-    authors: <strong>Haoyu Wang</strong>, Haosen Yu, Ahmad Atamli, Basel Halak
-    conference_short: TECS
-    conference: ACM Transactions on Embedded Computing Systems <strong>(TECS)</strong>, 2026.
-    pdf: 
-    code: 
-    bibtex: 
-    image: ./assets/img/teaser_gem5shark.png
-    notes: Submitted
+  # - title: "Gem5-Shark: Smaug-based Heterogeneous Deep Learning Accelerator Security and Reliability Evaluation and Characterization Framework"
+  #   authors: <strong>Haoyu Wang</strong>, Haosen Yu, Ahmad Atamli, Basel Halak
+  #   conference_short: TECS
+  #   conference: ACM Transactions on Embedded Computing Systems <strong>(TECS)</strong>, 2026.
+  #   pdf: 
+  #   code: 
+  #   bibtex: 
+  #   image: ./assets/img/teaser_gem5shark.png
+  #   notes: Submitted
 
   - title: "DL2Fence: Integrating Deep Learning and Frame Fusion for Enhanced Detection and Localization of Refined Denial-of-Service in Large-Scale NoCs"
     authors: <strong>Haoyu Wang</strong>, Basel Halak, Jianjie Ren, Ahmad Atamli
     conference_short: DAC
     conference: Proceedings of the 61st ACM/IEEE Design Automation Conference <strong>(DAC)</strong>, 2024.
-    pdf: https://dl.acm.org/doi/10.1145/3649329.3655922
+    pdf: https://dl.acm.org/doi/10.1145/3649329.3655921
     code: 
     bibtex: 
     image: ./assets/img/teaser_dl2fence.png
@@ -54,7 +54,7 @@ main:
     authors: <strong>Haoyu Wang</strong>, Jianjie Ren, Basel Halak, Ahmad Atamli
     conference_short: JETCAS
     conference: IEEE Journal on Emerging and Selected Topics in Circuits and Systems <strong>(JETCAS)</strong>, 2024.
-    pdf: https://ieeexplore.ieee.org/document/10530891
+    pdf: https://ieeexplore.ieee.org/document/10623215
     code: 
     bibtex: 
     image: ./assets/img/teaser_gns.png
@@ -64,7 +64,7 @@ main:
     authors: <strong>Haoyu Wang</strong>, Basel Halak
     conference_short: TETC
     conference: IEEE Transactions on Emerging Topics in Computing <strong>(TETC)</strong>, 2024.
-    pdf: https://ieeexplore.ieee.org/document/10314458
+    pdf: https://ieeexplore.ieee.org/document/10648582
     code: 
     bibtex: 
     image: ./assets/img/teaser_tampml.png
@@ -74,7 +74,7 @@ main:
     authors: <strong>Haoyu Wang</strong>, Basel Halak
     conference_short: ASP-DAC
     conference: Proceedings of the 28th Asia and South Pacific Design Automation Conference <strong>(ASP-DAC)</strong>, 2023.
-    pdf: https://dl.acm.org/doi/10.1145/3566097.3567931
+    pdf: 
     code: 
     bibtex: 
     image: ./assets/img/teaser_aspdac2023.png
@@ -84,7 +84,7 @@ main:
     authors: <strong>Haoyu Wang</strong>, Nicolas Moser, Pantelis Georgiou
     conference_short: ISCAS
     conference: 2020 IEEE International Symposium on Circuits and Systems <strong>(ISCAS)</strong>, 2020.
-    pdf: https://ieeexplore.ieee.org/document/9180693
+    pdf: 
     code: 
     bibtex: 
     image: ./assets/img/teaser_isfet.png
@@ -104,7 +104,7 @@ main:
     authors: Shengkai Hu, <strong>Haoyu Wang</strong>, Basel Halak
     conference_short: ISCAS
     conference: 2023 IEEE International Symposium on Circuits and Systems <strong>(ISCAS)</strong>, 2023.
-    pdf: https://ieeexplore.ieee.org/document/10181566
+    pdf: 
     code: 
     bibtex: 
     image: ./assets/img/teaser_cascaded.png
