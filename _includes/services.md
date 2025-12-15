@@ -1,16 +1,46 @@
-## Services
+## Teaching & Services
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Teaching</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
-  <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
-  <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li>
+  <li><autocolor><strong>Lab Assistant & MSc Supervisor</strong>, University of Southampton (2022-2025)</autocolor>
+    <ul>
+      <li>VLSI System Design (Led by Iain MacNally)</li>
+      <li>Advanced Computer Architecture</li>
+      <li>Supervised MSc students, resulting in 2 co-authored publications</li>
+    </ul>
+  </li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
+<h4 style="margin:0 10px 0;">Services</h4>
 
 <ul style="margin:0 0 20px;">
-  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
-  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
+  <li><autocolor><strong>Seminar Organizer</strong>: Initiated and organized the first-ever Computer Architecture Reading Seminar at University of Oxford (2025-Present)</autocolor></li>
+  <li><autocolor><strong>Co-Leader</strong>: Germany-UK Security-Enhanced AI Inference Edge Processors Project (Collaboration with TUM)</autocolor></li>
+</ul>
+
+## Work Experience
+
+<h4 style="margin:0 10px 0;">Industry</h4>
+
+<ul style="margin:0 0 5px;">
+  <li><autocolor><strong>Senior Silicon Design Engineer (GPU IP Design)</strong>, AMD (2021-2022)</autocolor>
+    <ul>
+      <li>GPU IP in MI300 Accelerated Compute Die (XCD): GDFLL, RT-AVFS, FastGFXOFF block design (5nm & 7nm)</li>
+      <li>RTL coding, code coverage checking, IP verification and P&R design</li>
+    </ul>
+  </li>
+  <li><autocolor><strong>Research Scientist Intern</strong>, Alibaba DAMO Academy (2024)</autocolor>
+    <ul>
+      <li>NoC Performance Modelling for RISC-V based chips to accelerate LLM</li>
+      <li>Multicasting Development, Virtual Channel Design, Routing Algorithm verification</li>
+    </ul>
+  </li>
+  <li><autocolor><strong>SoC Design & Digital Design Engineer</strong>, United Imaging Healthcare (2019-2021)</autocolor>
+    <ul>
+      <li>Wearable SoC project: AHB matrix system, IP design (SPI, UART), SoC integration (55nm)</li>
+      <li>Full-flow Digital IC Design in 2 tapped-out ASICs</li>
+      <li>CN Patent: High-efficient digital arbitration module design (CN202110382596.6)</li>
+    </ul>
+  </li>
 </ul>

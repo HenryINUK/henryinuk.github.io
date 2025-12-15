@@ -1,22 +1,141 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "ccGuard: Efficient Confidential Computing Access Control Through Near Memory Controller Support"
+    authors: <strong>Haoyu Wang</strong>, Nurreddin Kamadan, Noa Zillberman, Ahmad Atamli, Amro Awad
+    conference_short: ISCA
+    conference: ACM International Symposium on Computer Architecture <strong>(ISCA)</strong>, 2026.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_ccguard.png
+    notes: Submitted
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "NoCProphet: Generative Proactive Defence for Network-on-Chip Systems"
+    authors: <strong>Haoyu Wang</strong>, Shengkai Hu, BooJoong Kang
+    conference_short: DAC
+    conference: Proceedings of the 31st ACM/IEEE Design Automation Conference <strong>(DAC)</strong>, 2026.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_nocprophet.png
+    notes: Submitted
+
+  - title: "Revisiting Virtual Memory Support for Confidential Computing Environments"
+    authors: <strong>Haoyu Wang</strong>, Noa Zillberman, Ahmad Atamli, Amro Awad
+    conference_short: CAL
+    conference: IEEE Computer Architecture Letters <strong>(CAL)</strong>, 2026.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_cal.png
+    notes: 
+
+  - title: "Gem5-Shark: Smaug-based Heterogeneous Deep Learning Accelerator Security and Reliability Evaluation and Characterization Framework"
+    authors: <strong>Haoyu Wang</strong>, Haosen Yu, Ahmad Atamli, Basel Halak
+    conference_short: TECS
+    conference: ACM Transactions on Embedded Computing Systems <strong>(TECS)</strong>, 2026.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_gem5shark.png
+    notes: Submitted
+
+  - title: "DL2Fence: Integrating Deep Learning and Frame Fusion for Enhanced Detection and Localization of Refined Denial-of-Service in Large-Scale NoCs"
+    authors: <strong>Haoyu Wang</strong>, Basel Halak, Jianjie Ren, Ahmad Atamli
+    conference_short: DAC
+    conference: Proceedings of the 61st ACM/IEEE Design Automation Conference <strong>(DAC)</strong>, 2024.
+    pdf: https://dl.acm.org/doi/10.1145/3649329.3655922
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_dl2fence.png
+    notes: 
+
+  - title: "GNS: Graph-based Network-on-Chip Shield for Early Defense Against Malicious Nodes in MPSoC"
+    authors: <strong>Haoyu Wang</strong>, Jianjie Ren, Basel Halak, Ahmad Atamli
+    conference_short: JETCAS
+    conference: IEEE Journal on Emerging and Selected Topics in Circuits and Systems <strong>(JETCAS)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/document/10530891
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_gns.png
+    notes: 
+
+  - title: "TampML: Tampering Attack Detection and Malicious Nodes Localization in NoC-based MPSoC"
+    authors: <strong>Haoyu Wang</strong>, Basel Halak
+    conference_short: TETC
+    conference: IEEE Transactions on Emerging Topics in Computing <strong>(TETC)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/document/10314458
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_tampml.png
+    notes: 
+
+  - title: "Hardware Trojan Detection and High-Precision Localization in NoC-based MPSoC Using Machine Learning"
+    authors: <strong>Haoyu Wang</strong>, Basel Halak
+    conference_short: ASP-DAC
+    conference: Proceedings of the 28th Asia and South Pacific Design Automation Conference <strong>(ASP-DAC)</strong>, 2023.
+    pdf: https://dl.acm.org/doi/10.1145/3566097.3567931
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_aspdac2023.png
+    notes: 
+
+  - title: "An ISFET Array for Ion Multiplexing with an Integrated Sensor Learning Algorithm"
+    authors: <strong>Haoyu Wang</strong>, Nicolas Moser, Pantelis Georgiou
+    conference_short: ISCAS
+    conference: 2020 IEEE International Symposium on Circuits and Systems <strong>(ISCAS)</strong>, 2020.
+    pdf: https://ieeexplore.ieee.org/document/9180693
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_isfet.png
+    notes: 
+
+  - title: "Quattro: Transformer-Accelerated Iterative Linear Quadratic Regulator Framework for Fast Trajectory Optimization"
+    authors: Yue Wang, <strong>Haoyu Wang</strong>, Zhaoxing Li
+    conference_short: CDC
+    conference: 2025 64th IEEE Conference on Decision and Control <strong>(CDC)</strong>, 2025.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_quattro.png
+    notes: 
+
+  - title: "Cascaded Machine Learning Model Based DoS Attacks Detection and Classification in NoC"
+    authors: Shengkai Hu, <strong>Haoyu Wang</strong>, Basel Halak
+    conference_short: ISCAS
+    conference: 2023 IEEE International Symposium on Circuits and Systems <strong>(ISCAS)</strong>, 2023.
+    pdf: https://ieeexplore.ieee.org/document/10181566
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_cascaded.png
+    notes: 
+
+  - title: "Pack Defender: Proactive Defense Against Packet Attacks in NoCs Using an XGBoost-RNN Model"
+    authors: Shengkai Hu, <strong>Haoyu Wang</strong>, Basel Halak, BooJoong Kang
+    conference_short: ASP-DAC
+    conference: Proceedings of the 31st Asia and South Pacific Design Automation Conference <strong>(ASP-DAC)</strong>, 2026.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_packdefender.png
+    notes: 
+
+  - title: "Heloc-NoC: High-Efficiency and Low-Hop On-Chip Communication in 3D Network-on-Chips"
+    authors: Lizhong Wang, <strong>Haoyu Wang</strong>
+    conference_short: SOCC
+    conference: 2024 IEEE 37th International System-on-Chip Conference <strong>(SOCC)</strong>, 2024.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_helocnoc.png
+    notes: 
+
+  - title: "ZeKi: A Zero-Knowledge Dynamic Logic Locking Implementation with Resilience to Multiple Attacks"
+    authors: Yue Zhang, Basel Halak, <strong>Haoyu Wang</strong>
+    conference_short: SOCC
+    conference: 2024 IEEE 37th International System-on-Chip Conference <strong>(SOCC)</strong>, 2024.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_zeki.png
+    notes: 

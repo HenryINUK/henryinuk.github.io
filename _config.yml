@@ -1,56 +1,34 @@
 # Basic Information 
-title: Dr. Haoyu (Henry) Wang
-position: PDRA
+title: Haoyu (Henry) Wang
+position: Postdoctoral Research Associate
 affiliation: University of Oxford
-email: henry.wang@eng.ox.ac.uk
+email: henry.wang (at) eng.ox.ac.uk
 
 # Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: computer architecture, confidential computing, memory hierarchy, deep learning accelerator, NoC security, hardware security
+description: Dr. Haoyu Wang is a Postdoctoral Research Associate at University of Oxford, specializing in secure computer architecture, memory hierarchy, confidential computing and deep-learning accelerators.
+canonical: https://henryinuk.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=z64nHlcAAAAJ&hl=en
-cv_link: assets/files/curriculum_vitae.pdf
+google_scholar: https://scholar.google.com/citations?user=YOUR_ID
+cv_link: assets/files/Haoyu_Wang_CV.pdf
 github_link: https://github.com/HenryINUK
-linkedin: www.linkedin.com/in/haoyu-wang-imperial
+linkedin: https://www.linkedin.com/in/haoyu-wang-imperial
 
 # Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.png
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
 
 # Auto Dark Mode
-# You may use the option to disable the automatic dark theme
 auto_dark_mode: true
 
 # Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Serif"
 
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
-
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
-
-# The following files will be removed from the generated website.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
-  - LICENSE
-  - minimal-light.gemspec
-  - html_source_file/
+# Google Analytics ID (remove this line if you don't use it)
+# google_analytics: UA-XXXXXXXX-X
