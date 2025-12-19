@@ -17,6 +17,16 @@
 <ul style="margin:0 0 20px;">
   <li><autocolor><strong>Seminar Organizer</strong>: Initiated and organized the first-ever Computer Architecture Reading Seminar at University of Oxford (2025-Present)</autocolor></li>
   <li><autocolor><strong>Co-Leader</strong>: Germany-UK Security-Enhanced AI Inference Edge Processors Project (Collaboration with TUM)</autocolor></li>
+  <li><autocolor><strong>Funding Reviewer</strong>: UK Research and Innovation (UKRI) (2025-Present)</autocolor></li>
+  <li><autocolor><strong>Journal Reviewer</strong>:</autocolor>
+    <ul>
+      <li>IEEE Transactions on Dependable and Secure Computing</li>
+      <li>IEEE Journal on Emerging and Selected Topics in Circuits and Systems</li>
+      <li>Microelectronics Journal</li>
+      <li>Scientific Reports</li>
+      <li>Journal of Supercomputing</li>
+    </ul>
+  </li>
 </ul>
 
 ## Work Experience

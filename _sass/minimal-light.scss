@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .pub-row {
-  display: flex; 
+  display: flex;
   align-items: center;}
 
 .social-icons a{
@@ -594,4 +598,35 @@ footer {
   margin-left: 0px;
   display:none;
   font-family: monospace;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 12px;
+}
+
+.nav-links a {
+  font-size: 13px;
+  color: #043361;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #f0f0f0;
+  color: #069;
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav-links a {
+    color: rgb(62, 183, 240);
+  }
+
+  .nav-links a:hover {
+    background-color: #2a2b38;
+  }
 }
