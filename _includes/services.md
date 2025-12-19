@@ -1,3 +1,25 @@
+## Funding & Projects
+
+<ul style="margin:0 0 20px;">
+  <li><autocolor><strong>Near-Memory Confidential Computing Architecture</strong> (UKRI Grant: 10126728)</autocolor>
+    <ul>
+      <li>Accelerating virtualization-based confidential computing (ARM CCA, AMD SEV-SNP, Intel TDX) through a novel near-memory access-control and permission-checking architecture</li>
+    </ul>
+  </li>
+  <li><autocolor><strong>AI Security: Security of Deep Learning Accelerators in Heterogeneous Edge Computing</strong></autocolor>
+    <br><span style="color:#666; font-size:95%;">Alan Turing Institute - Defence & Security Grand Challenge</span>
+    <ul>
+      <li>Developed <a href="https://github.com/HaosenYu/gem5-shark">Gem5-Shark</a>, a deep learning accelerator security exploration platform targeting SoC vulnerabilities, processing element exploits, and model compilation attacks in heterogeneous AI accelerators</li>
+    </ul>
+  </li>
+  <li><autocolor><strong>Security-Enhanced AI Inference Edge Processors</strong></autocolor>
+    <br><span style="color:#666; font-size:95%;">Germany-UK Collaboration with Technical University of Munich (TUM)</span>
+    <ul>
+      <li>Co-leading research on secure AI inference architectures for edge computing applications</li>
+    </ul>
+  </li>
+</ul>
+
 ## Teaching & Services
 
 <h4 style="margin:0 10px 0;">Teaching</h4>
@@ -16,7 +38,6 @@
 
 <ul style="margin:0 0 20px;">
   <li><autocolor><strong>Seminar Organizer</strong>: Initiated and organized the first-ever Computer Architecture Reading Seminar at University of Oxford (2025-Present)</autocolor></li>
-  <li><autocolor><strong>Co-Leader</strong>: Germany-UK Security-Enhanced AI Inference Edge Processors Project (Collaboration with TUM)</autocolor></li>
   <li><autocolor><strong>Funding Reviewer</strong>: UK Research and Innovation (UKRI) (2025-Present)</autocolor></li>
   <li><autocolor><strong>Journal Reviewer</strong>:</autocolor>
     <ul>
