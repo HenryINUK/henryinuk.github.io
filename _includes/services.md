@@ -33,6 +33,7 @@
       <li>Microelectronics Journal</li>
       <li>Scientific Reports</li>
       <li>Journal of Supercomputing</li>
+      <li>Artificial Intelligence Review</li>
     </ul>
   </li>
 </ul>
