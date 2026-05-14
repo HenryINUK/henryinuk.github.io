@@ -1,4 +1,4 @@
-## Teaching
+## Teaching & Mentoring
 
 <h4 style="margin:0 10px 0;">Teaching Assistant</h4>
 
@@ -11,9 +11,14 @@
   </li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Master's Student Supervision</h4>
+<h4 style="margin:0 10px 0;">Student Mentoring</h4>
 
 <ul style="margin:0 0 20px;">
+  <li><autocolor><strong>University of Oxford</strong> (2025-Present)</autocolor>
+    <ul>
+      <li>Mentoring DPhil students and research internship students</li>
+    </ul>
+  </li>
   <li><autocolor><strong>University of Southampton</strong> (2022-2025)</autocolor>
     <ul>
       <li>Supervised MSc students, resulting in 2 co-authored publications</li>
@@ -21,7 +26,7 @@
   </li>
 </ul>
 
-## Services
+## Academic Service
 
 <ul style="margin:0 0 20px;">
   <li><autocolor><strong>Seminar Organizer</strong>: Initiated and organized the first-ever Computer Architecture Reading Seminar at University of Oxford (2025-Present)</autocolor></li>
