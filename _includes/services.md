@@ -25,11 +25,14 @@
 
 <ul style="margin:0 0 20px;">
   <li><autocolor><strong>Seminar Organizer</strong>: Initiated and organized the first-ever Computer Architecture Reading Seminar at University of Oxford (2025-Present)</autocolor></li>
+  <li><autocolor><strong>Workshop Organizer & Speaker</strong>: ConfAd 2026 - The 1st Workshop on Advances in Confidential Computing</autocolor></li>
+  <li><autocolor><strong>Conference Committee</strong>: 37th IEEE International Conference on Application-specific Systems, Architectures and Processors (ASAP 2026)</autocolor></li>
   <li><autocolor><strong>Funding Reviewer</strong>: UK Research and Innovation (UKRI) (2025-Present)</autocolor></li>
   <li><autocolor><strong>Journal Reviewer</strong>:</autocolor>
     <ul>
       <li>IEEE Transactions on Dependable and Secure Computing</li>
       <li>IEEE Journal on Emerging and Selected Topics in Circuits and Systems</li>
+      <li>Springer Nature</li>
       <li>Microelectronics Journal</li>
       <li>Scientific Reports</li>
       <li>Journal of Supercomputing</li>
