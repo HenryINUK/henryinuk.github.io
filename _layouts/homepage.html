@@ -36,6 +36,9 @@
 
   </head>
   <body>
+    <!-- Scroll-focus: progressive blur over the top/bottom of the viewport -->
+    <div class="focus-fade focus-fade-top" aria-hidden="true"></div>
+    <div class="focus-fade focus-fade-bottom" aria-hidden="true"></div>
     <div class="wrapper">
       <header>
 
@@ -130,10 +133,6 @@
         function setActive(id) {
           links.forEach(function (l) {
             l.classList.toggle('active', l.getAttribute('data-target') === id);
-          });
-          // Scroll-focus: dim + blur every section except the active one
-          sections.forEach(function (s) {
-            s.classList.toggle('dimmed', s.id !== id);
           });
         }
 
