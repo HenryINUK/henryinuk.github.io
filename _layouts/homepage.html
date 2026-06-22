@@ -131,6 +131,10 @@
           links.forEach(function (l) {
             l.classList.toggle('active', l.getAttribute('data-target') === id);
           });
+          // Scroll-focus: dim + blur every section except the active one
+          sections.forEach(function (s) {
+            s.classList.toggle('dimmed', s.id !== id);
+          });
         }
 
         // Smooth scroll to the target section on click

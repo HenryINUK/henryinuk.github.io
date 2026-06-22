@@ -1,3 +1,5 @@
+<p class="lead">Building secure, high-performance computer architectures &mdash; from confidential computing and memory systems to deep-learning accelerators and on-chip networks.</p>
+
 ## About Me
 
 I am a **Postdoctoral Research Associate** in the [Oxford Secure Computer Architecture Research (OSCAR) Group](https://www.oscar-ox.com/) at the **University of Oxford (Univ College)**, led by Prof. Amro Awad. My research focuses on **secure computer architecture**, **confidential computing**, **memory hierarchy**, and **deep learning accelerators**.
@@ -25,6 +27,17 @@ I gained extensive industry experience as a **Research Scientist Intern** mentor
 
 ## Research Interests
 
-- **Secure Computer Architecture:** Confidential computing, memory hierarchy
-- **Network-on-Chip (NoC) Security:** Intrusion detection, hardware Trojan mitigation, adaptive routing
-- **Deep Learning Accelerators:** Security and reliability of AI hardware
+<div class="ri-grid">
+  <div class="ri-card">
+    <div class="ri-card-title">Secure Computer Architecture</div>
+    <p>Confidential computing, memory hierarchy, and near-memory access control.</p>
+  </div>
+  <div class="ri-card">
+    <div class="ri-card-title">Network-on-Chip Security</div>
+    <p>Intrusion detection, hardware-Trojan mitigation, and adaptive routing.</p>
+  </div>
+  <div class="ri-card">
+    <div class="ri-card-title">Deep Learning Accelerators</div>
+    <p>Security and reliability of AI hardware and heterogeneous SoCs.</p>
+  </div>
+</div>
