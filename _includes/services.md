@@ -35,9 +35,10 @@
   <li><autocolor><strong>Funding Reviewer</strong>: UK Research and Innovation (UKRI) (2025-Present)</autocolor></li>
   <li><autocolor><strong>Journal Reviewer</strong>:</autocolor>
     <ul>
-      <li>IEEE Transactions on Dependable and Secure Computing</li>
+      <li><strong>IEEE Transactions on Dependable and Secure Computing</strong></li>
       <li>IEEE Journal on Emerging and Selected Topics in Circuits and Systems</li>
-      <li>Springer Nature</li>
+      <li><strong>ACM Transactions on Architecture and Code Optimization</strong></li>
+      <li><strong>Springer Nature</strong></li>
       <li>Microelectronics Journal</li>
       <li>Scientific Reports</li>
       <li>Journal of Supercomputing</li>

@@ -1,10 +1,11 @@
 ## News
 
+- **[May 2026]** We successfully hosted **ConfAd 2026: The First Workshop on Advances in Confidential Computing** at University College, University of Oxford (May 8th, 2026).
 - **[Nov. 2025]** Our paper 'Pack Defender' (led by Shengkai) has been accepted by ASP-DAC 2026. See you in Hong Kong!
 - **[Jul. 2025]** I have successfully passed my Ph.D. viva! Thank you, Professor Sakir Sezer.
 - **[Apr. 2025]** Joined the OSCAR Group at University of Oxford as a Postdoctoral Research Associate.
-- **[Jul. 2024]** Started Research Scientist Internship at Alibaba DAMO Academy.
 - **[Sep. 2024]** Our paper 'ZeKi' and 'Heloc-NoC' have been accepted by SoCC (International System-on-Chip Conference) 2024.
+- **[Jul. 2024]** Started Research Scientist Internship at Alibaba DAMO Academy.
 - **[Jun. 2024]** Paper accepted at DAC 2024: "DL2Fence: Deep Learning and Frame Fusion for DoS Detection in NoCs"
 - **[Mar. 2024]** Paper accepted in IEEE JETCAS: "GNS: Graph-based Network-on-Chip Shield"
 
