@@ -668,3 +668,219 @@ footer {
     color: #20212b;
   }
 }
+
+/* ============================================================
+   REFINED THEME OVERRIDES — professional academic redesign.
+   Appended on purpose: original layout (fixed left sidebar +
+   right content) is preserved; typography, palette, spacing,
+   navigation and publications are elevated. All design tokens
+   live in :root so light/dark stay in sync.
+   ============================================================ */
+
+:root {
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --navy: #002147;       /* Oxford Blue */
+  --navy-soft: #0b3a66;
+  --link: #1d5fa8;
+  --link-hover: #002147;
+  --ink: #3f444c;
+  --muted: #6b7280;
+  --border: #e6e8ec;
+  --bg-soft: #f5f6f8;
+}
+
+/* ---- Typography ---- */
+h1, h2, h3, h5, h6 {
+  font-family: var(--serif);
+  color: var(--navy);
+  letter-spacing: -0.01em;
+}
+
+header h1 {
+  font-family: var(--serif);
+  font-size: 31px;
+  font-weight: 600;
+  color: var(--navy);
+  line-height: 1.15;
+  margin: 4px 0 8px;
+}
+
+h2 {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--navy);
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+* + h2 { margin-top: 40px; }
+
+h3 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* Sub-section labels become refined uppercase "eyebrows" */
+h4 {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--navy-soft);
+  margin: 0 0 12px !important;
+}
+
+strong { color: #1f2630; font-weight: 600; }
+
+a { color: var(--link); transition: color 0.15s ease; }
+a:hover { color: var(--link-hover); }
+
+autocolor { color: var(--ink); }
+
+/* ---- Sidebar header ---- */
+header { padding-top: 4.5em; }
+
+header position {
+  display: inline-block;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+header email {
+  color: var(--muted);
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 12.5px;
+}
+
+#header .image.avatar,
+header .image.avatar {
+  width: 150px;
+  margin: 0 auto 1.3em;
+}
+
+.image.avatar img {
+  width: 100%;
+  padding: 0;
+  box-shadow: 0 8px 24px rgba(0, 33, 71, 0.16);
+}
+
+/* ---- Social icons ---- */
+.social-icons a {
+  color: var(--navy) !important;
+  line-height: 2.4rem;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.social-icons a:hover {
+  background-color: transparent;
+  color: var(--link) !important;
+  transform: translateY(-2px) scale(1.12);
+}
+
+/* ---- Content spacing ---- */
+section { padding-bottom: 60px; }
+section ul { margin: 0 0 18px; }
+section li { margin-bottom: 7px; line-height: 1.6; }
+section ul ul { margin: 6px 0 4px; }
+
+/* ---- Navigation tabs ---- */
+.top-nav {
+  gap: 4px;
+  margin-bottom: 30px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-tab {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+
+.nav-tab:hover { background-color: var(--bg-soft); color: var(--navy); }
+.nav-tab.active { background-color: var(--navy); color: #fff; }
+.nav-tab.active:hover { background-color: var(--navy-soft); color: #fff; }
+
+/* ---- Publications ---- */
+.pub-list {
+  list-style: none;
+  margin: 4px 0 5px;
+  padding: 0;
+}
+
+.pub-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub-item:last-child { border-bottom: 0; }
+
+.pub-badge {
+  flex: 0 0 auto;
+  min-width: 58px;
+  margin-top: 3px;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--navy);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 8px;
+}
+
+.pub-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.pub-title {
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 600;
+  color: #21303f;
+  line-height: 1.32;
+  transition: color 0.15s ease;
+}
+
+.pub-item:hover .pub-title { color: var(--navy); }
+
+.pub-authors { color: var(--muted); font-size: 14.5px; }
+
+.pub-venue { color: var(--ink); font-size: 14px; }
+.pub-venue a { margin-left: 7px; font-weight: 500; font-size: 13.5px; }
+.pub-note { color: #9a9a9a; font-style: italic; margin-left: 5px; }
+
+/* ---- Dark mode token overrides ---- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --navy: #6fb7e8;
+    --navy-soft: #93cef0;
+    --link: #6fb7e8;
+    --link-hover: #a4d6f6;
+    --ink: #cdd1d8;
+    --muted: #99a1ac;
+    --border: #333644;
+    --bg-soft: #262834;
+  }
+
+  body { background-color: #1b1c25; color: var(--ink); }
+  strong { color: #e9ebef; }
+  .pub-title { color: #e9ebef; }
+  .nav-tab.active { color: #1b1c25; }
+  .nav-tab.active:hover { color: #1b1c25; }
+  .image.avatar img { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); }
+}

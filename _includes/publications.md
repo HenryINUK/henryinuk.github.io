@@ -15,23 +15,15 @@
 
 <h4 style="margin:0 10px 0;">Selected Publications</h4>
 
-<ul style="margin:0 0 5px;">
+<ol class="pub-list">
   {% for publication in site.data.publications.main %}
-  <li>
-    <autocolor>{{ publication.title }}</autocolor>
-    <br>
-    <em>{{ publication.authors }}</em>
-    <br>
-    {{ publication.conference }}
-    {% if publication.notes %}
-    <span style="color:#9a9a9a;"> ({{ publication.notes }})</span>
-    {% endif %}
-    {% if publication.pdf %}
-    <a href="{{ publication.pdf }}">[PDF]</a>
-    {% endif %}
-    {% if publication.code %}
-    <a href="{{ publication.code }}">[Code]</a>
-    {% endif %}
+  <li class="pub-item">
+    <span class="pub-badge">{{ publication.conference_short }}</span>
+    <div class="pub-body">
+      <span class="pub-title">{{ publication.title }}</span>
+      <span class="pub-authors">{{ publication.authors }}</span>
+      <span class="pub-venue">{{ publication.conference }}{% if publication.notes %}<span class="pub-note">{{ publication.notes }}</span>{% endif %}{% if publication.pdf %} <a href="{{ publication.pdf }}">[PDF]</a>{% endif %}{% if publication.code %} <a href="{{ publication.code }}">[Code]</a>{% endif %}</span>
+    </div>
   </li>
   {% endfor %}
-</ul>
+</ol>
