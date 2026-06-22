@@ -884,3 +884,48 @@ section ul ul { margin: 6px 0 4px; }
   .nav-tab.active:hover { color: #1b1c25; }
   .image.avatar img { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); }
 }
+
+/* ============================================================
+   SINGLE-PAGE LAYOUT — transparent left side-nav with anchor
+   scroll-spy, replacing the old tab-switching behaviour.
+   ============================================================ */
+
+.side-nav {
+  width: 188px;
+  margin: 30px auto 0;
+  text-align: left;
+}
+
+.side-nav-link {
+  display: block;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  padding: 11px 8px 11px 13px;
+  border-top: 1px solid var(--border);
+  border-left: 2px solid transparent;
+  letter-spacing: 0.01em;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.side-nav-link:last-child { border-bottom: 1px solid var(--border); }
+
+.side-nav-link:hover { color: var(--navy); }
+
+.side-nav-link.active {
+  color: var(--navy);
+  font-weight: 600;
+  border-left-color: var(--navy);
+}
+
+/* Single-page section anchors + dividers */
+.page-section { scroll-margin-top: 28px; }
+
+.section-divider {
+  border: 0;
+  border-top: 1px solid var(--border);
+  height: 0;
+  margin: 44px 0;
+  background: transparent;
+}

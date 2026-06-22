@@ -90,19 +90,19 @@
         </a>
         {% endif %}
         </div>
-        <br>
+
+        <!-- Side navigation: single-page anchors with scroll-spy -->
+        <nav class="side-nav">
+          <a href="#about" class="side-nav-link" data-target="about">About</a>
+          <a href="#news" class="side-nav-link" data-target="news">News &amp; Projects</a>
+          <a href="#publications" class="side-nav-link" data-target="publications">Publications</a>
+          <a href="#services" class="side-nav-link" data-target="services">Teaching &amp; Services</a>
+        </nav>
 
       </header>
       <section>
-        <!-- Top Navigation Tabs -->
-        <nav class="top-nav">
-          <a href="#" class="nav-tab active" data-tab="about">About</a>
-          <a href="#" class="nav-tab" data-tab="news">News & Projects</a>
-          <a href="#" class="nav-tab" data-tab="publications">Publications</a>
-          <a href="#" class="nav-tab" data-tab="services">Teaching & Services</a>
-        </nav>
 
-        <!-- Tab Contents -->
+        <!-- All sections rendered on one page; navigation scrolls to anchors -->
         {{ content }}
 
       <br>
@@ -118,47 +118,63 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 
-    <!-- Tab Switching Script -->
+    <!-- Single-page navigation: smooth scroll + scroll-spy active highlighting -->
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const tabs = document.querySelectorAll('.nav-tab');
-        const tabContents = document.querySelectorAll('.tab-content');
+      document.addEventListener('DOMContentLoaded', function () {
+        var links = Array.prototype.slice.call(document.querySelectorAll('.side-nav-link'));
+        var sections = links
+          .map(function (l) { return document.getElementById(l.getAttribute('data-target')); })
+          .filter(Boolean);
+        if (!sections.length) return;
 
-        // Check URL hash for initial tab
-        const hash = window.location.hash.slice(1);
-        if (hash && document.querySelector(`.tab-content[data-tab="${hash}"]`)) {
-          showTab(hash);
+        function setActive(id) {
+          links.forEach(function (l) {
+            l.classList.toggle('active', l.getAttribute('data-target') === id);
+          });
         }
 
-        tabs.forEach(tab => {
-          tab.addEventListener('click', function(e) {
+        // Smooth scroll to the target section on click
+        links.forEach(function (l) {
+          l.addEventListener('click', function (e) {
             e.preventDefault();
-            const tabName = this.getAttribute('data-tab');
-            showTab(tabName);
-            history.pushState(null, null, '#' + tabName);
+            var id = l.getAttribute('data-target');
+            var el = document.getElementById(id);
+            if (!el) return;
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            history.replaceState(null, null, '#' + id);
+            setActive(id);
           });
         });
 
-        function showTab(tabName) {
-          // Update active tab
-          tabs.forEach(t => t.classList.remove('active'));
-          document.querySelector(`.nav-tab[data-tab="${tabName}"]`).classList.add('active');
-
-          // Show corresponding content
-          tabContents.forEach(content => {
-            if (content.getAttribute('data-tab') === tabName) {
-              content.classList.add('active');
-            } else {
-              content.classList.remove('active');
+        // Scroll-spy: highlight the section currently in view
+        var ticking = false;
+        function update() {
+          ticking = false;
+          var line = 140;
+          var current = sections[0].id;
+          for (var i = 0; i < sections.length; i++) {
+            if (sections[i].getBoundingClientRect().top - line <= 0) {
+              current = sections[i].id;
             }
-          });
+          }
+          // Pin the last section when scrolled to the very bottom
+          if ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 4)) {
+            current = sections[sections.length - 1].id;
+          }
+          setActive(current);
         }
+        function onScroll() {
+          if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll, { passive: true });
 
-        // Handle browser back/forward
-        window.addEventListener('popstate', function() {
-          const hash = window.location.hash.slice(1) || 'about';
-          showTab(hash);
-        });
+        // Honour an incoming #hash, then set initial active state
+        var hash = window.location.hash.slice(1);
+        if (hash && document.getElementById(hash)) {
+          document.getElementById(hash).scrollIntoView({ block: 'start' });
+        }
+        update();
       });
     </script>
 
