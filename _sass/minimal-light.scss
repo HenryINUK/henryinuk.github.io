@@ -300,7 +300,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
+  width:1180px;
   margin:0 auto;
 }
 
@@ -360,11 +360,11 @@ img {
 }
 
 header {
-  width:232px;
+  width:268px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
+  padding-top:4.5em;
   text-align:center
 }
 
@@ -436,9 +436,9 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  width:820px;
   float:right;
-  padding-top:4.0em;
+  padding-top:4.5em;
   padding-bottom:50px;
 }
 
@@ -454,7 +454,7 @@ hr {
 }
 
 footer {
-  width:232px;
+  width:268px;
   float:left;
   position:fixed;
   bottom:30px;
@@ -462,7 +462,7 @@ footer {
   text-align:center;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1180px) {
 
   .pub-row {
   display: flex; 
@@ -481,7 +481,7 @@ footer {
   }
 
   header {
-    padding-right:320px;
+    padding-right:0;
   }
 
   section {
@@ -517,7 +517,7 @@ footer {
   
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1180px) {
   body {
     word-wrap:break-word;
     padding:15px;
@@ -929,3 +929,48 @@ section ul ul { margin: 6px 0 4px; }
   margin: 44px 0;
   background: transparent;
 }
+
+/* ============================================================
+   POLISH v2 — wider column, airier rhythm, more editorial and
+   academic presence (section accent rules, grander header).
+   ============================================================ */
+
+/* Section titles: larger, with a short navy accent underline */
+h2 {
+  font-size: 28px;
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 42px;
+  height: 2px;
+  background: var(--navy);
+  border-radius: 2px;
+}
+
+* + h2 { margin-top: 52px; }
+
+/* Comfortable measure for prose even in the wider column */
+.page-section p { max-width: 720px; }
+
+/* Sidebar profile: a touch grander */
+header h1 { font-size: 33px; line-height: 1.12; }
+
+#header .image.avatar,
+header .image.avatar { width: 168px; }
+
+header position { font-size: 1rem; }
+
+/* More separation between the major page sections */
+.section-divider { margin: 58px 0; }
+
+/* Publications scale gently with the wider column */
+.pub-title { font-size: 17.5px; }
+.pub-item { padding: 17px 0; gap: 18px; }
+.pub-badge { min-width: 62px; }
