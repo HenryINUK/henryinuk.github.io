@@ -14,7 +14,7 @@ I gained extensive industry experience as a **Research Scientist Intern** mentor
 
 <ul class="exp-list">
   <li class="exp-item">
-    <img class="exp-logo" src="./assets/img/amd.svg" alt="AMD">
+    <img class="exp-logo" src="./assets/img/amd.png" alt="AMD">
     <div class="exp-body">
       <div class="exp-role"><strong>Senior Silicon Design Engineer</strong> (GPU IP Design)</div>
       <div class="exp-org">AMD &middot; 2021&ndash;2022</div>

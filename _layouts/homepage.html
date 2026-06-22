@@ -130,6 +130,9 @@
           .filter(Boolean);
         if (!sections.length) return;
 
+        var fadeTop = document.querySelector('.focus-fade-top');
+        var fadeBottom = document.querySelector('.focus-fade-bottom');
+
         function setActive(id) {
           links.forEach(function (l) {
             l.classList.toggle('active', l.getAttribute('data-target') === id);
@@ -160,11 +163,14 @@
               current = sections[i].id;
             }
           }
+          var atTop = window.scrollY <= 4;
+          var atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 4);
           // Pin the last section when scrolled to the very bottom
-          if ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 4)) {
-            current = sections[sections.length - 1].id;
-          }
+          if (atBottom) current = sections[sections.length - 1].id;
           setActive(current);
+          // Drop the edge blur once the very top / bottom is reached
+          if (fadeTop) fadeTop.classList.toggle('is-off', atTop);
+          if (fadeBottom) fadeBottom.classList.toggle('is-off', atBottom);
         }
         function onScroll() {
           if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
