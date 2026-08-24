@@ -1,5 +1,7 @@
 ## News
 
+- **[Aug. 2026]** Two papers, **VERVE** and **ClusterLearner**, have been accepted by **ICCD 2026** (acceptance rate 26%). Both propose microarchitecture-level optimisations for the memory accesses of memory-intensive workloads such as LLMs.
+- **[Aug. 2026]** Our paper "Practical Authenticated Encryption for Protecting AI Model Weights on Ultra-Low-Power Edge AI" has been accepted by **IEEE Embedded Systems Letters (ESL)**.
 - **[May 2026]** We successfully hosted **ConfAd 2026: The First Workshop on Advances in Confidential Computing** at University College, University of Oxford (May 8th, 2026).
 - **[Nov. 2025]** Our paper 'Pack Defender' (led by Shengkai) has been accepted by ASP-DAC 2026. See you in Hong Kong!
 - **[Jul. 2025]** I have successfully passed my Ph.D. viva! Thank you, Professor Sakir Sezer.
@@ -12,6 +14,9 @@
 ## Funding & Projects
 
 <ul style="margin:0 0 20px;">
+  <li><autocolor><strong>CipherGate: A Lightweight and Efficient Cryptographic Authentication-Enhanced Memory Storage Interface</strong> (PI)</autocolor>
+    <br><span style="color:#666; font-size:95%;">UKRI Research Institute in Secure Hardware and Embedded Systems (RISE)</span>
+  </li>
   <li><autocolor><strong>Near-Memory Confidential Computing Architecture</strong> (UKRI Grant: 10126728)</autocolor>
     <ul>
       <li>Accelerating virtualization-based confidential computing (ARM CCA, AMD SEV-SNP, Intel TDX) through a novel near-memory access-control and permission-checking architecture</li>

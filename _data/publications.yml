@@ -1,5 +1,15 @@
 main:
 
+  - title: "Practical Authenticated Encryption for Protecting AI Model Weights on Ultra-Low-Power Edge AI"
+    authors: <strong>Haoyu Wang</strong>, Sandy A. Wasif, Kevin Vuong, Hussam Amrouch, Amro Awad
+    conference_short: ESL
+    conference: IEEE Embedded Systems Letters <strong>(ESL)</strong>, 2026.
+    pdf:
+    code:
+    bibtex:
+    image:
+    notes:
+
   - title: "Revisiting Virtual Memory Support for Confidential Computing Environments"
     authors: <strong>Haoyu Wang</strong>, Noa Zillberman, Ahmad Atamli, Amro Awad
     conference_short: CAL

@@ -41,7 +41,7 @@ I gained extensive industry experience as a **Research Scientist Intern** mentor
   <div class="ri-card">
     <img class="ri-icon" src="./assets/img/secure_comparch_160.png" alt="">
     <div class="ri-card-title">Secure Computer Architecture</div>
-    <p>Confidential computing, memory hierarchy, and near-memory access control.</p>
+    <p>Confidential computing, memory hierarchy, virtualization, and access control.</p>
   </div>
   <div class="ri-card">
     <img class="ri-icon" src="./assets/img/secure_noc_160.png" alt="">
