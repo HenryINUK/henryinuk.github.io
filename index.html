@@ -326,6 +326,10 @@ a:hover{color:var(--ink);text-decoration-color:var(--ink)}
 
     <footer style="margin-top:64px;border-top:1px solid var(--hairline);padding:18px 0 8px;display:flex;justify-content:space-between;gap:16px;font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--faint)">
       <span>© 2026 Haoyu (Henry) Wang</span>
+      <span style="display:flex;gap:4px;align-items:center">
+        <span id="busuanzi_container_site_pv" style="display:none"><span style="display:var(--en,inline)">Views</span><span style="display:var(--zh,none)">访问量</span> <span id="busuanzi_value_site_pv"></span></span>
+        <span id="busuanzi_container_site_uv" style="display:none">· <span style="display:var(--en,inline)">Visitors</span><span style="display:var(--zh,none)">访客</span> <span id="busuanzi_value_site_uv"></span></span>
+      </span>
       <span style="display:var(--motif-hide,inline)">REV 2026.08 · OXFORD, UK</span>
     </footer>
   </main>
@@ -354,7 +358,28 @@ class Component extends DCLogic {
     document.documentElement.lang = zh ? 'zh-CN' : 'en';
   }
   tglCard(k) { this.setState(s => ({ openCard: s.openCard === k ? null : k })); }
-  componentDidMount() { this.applyVars(); }
+  componentDidMount() {
+    this.applyVars();
+    this.detectRegionLang();
+  }
+  detectRegionLang() {
+    let hasPref = false;
+    try { hasPref = localStorage.getItem('hw-lang') !== null; } catch (e) {}
+    if (hasPref) return;
+    const timeout = (ms) => new Promise((_, reject) => setTimeout(() => reject(new Error('geo-timeout')), ms));
+    Promise.race([
+      fetch('https://ipapi.co/json/').then(r => r.json()),
+      timeout(3000)
+    ]).then(data => {
+      const cc = (data && data.country_code) || '';
+      if (cc === 'CN' || cc === 'HK') this.setState({ lang: 'zh' });
+    }).catch(() => {
+      try {
+        const nl = ((navigator.language || (navigator.languages && navigator.languages[0]) || '') + '').toLowerCase();
+        if (nl.indexOf('zh') === 0) this.setState({ lang: 'zh' });
+      } catch (e) {}
+    });
+  }
   componentDidUpdate() { this.applyVars(); }
   renderVals() {
     const zh = this.state.lang === 'zh';
@@ -379,5 +404,6 @@ class Component extends DCLogic {
   }
 }
 </script>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
