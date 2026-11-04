@@ -22,6 +22,7 @@
 ## 常见更新
 - 加 News：在 News 区块复制一整行 <div style="display:flex;gap:16px">…（日期 span + 双语正文 span），最新放最上面。默认只显示前 5 条：第 6 条起要包在 <div style="display:var(--news-extra,none)"> 里，并把逻辑脚本与按钮文案里的“全部 10 条 / all 10 entries”数字改成新总数。
 - 加论文：复制一个 grid-template-columns:88px 1fr 条目，改 venue 标签、标题、作者（本人加粗）、期刊/会议与年份、[PDF] 链接；会议录用率沿用现有加粗 span 格式（SOCC 不加）。
+- Publications 的分类 tab（Conference / Journal & Transaction / Book Chapter）靠条目最外层 style 里的 display:var(--pub-conf,grid)（会议）、display:var(--pub-jour,grid)（期刊）过滤；图书章节整块包在 display:var(--pub-book,block) 里。新增论文时请复制同类别的现有条目，不要混用。会议和期刊名称后面要带括号缩写，例如 (HPCA)。
 - 换头像：替换 assets/img/avatar-new.jpg（正方形裁切最佳）。
 - 换主题色：同时改 :root 和 dark 里的 --accent。
 
